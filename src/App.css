@@ -1,0 +1,209 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.header{
+  width: auto;
+  height: 72px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 153px;
+  padding: 24px;
+  box-shadow: inset 0 -1px 0 0 var(--white);
+  background-color: var(--white-70);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0; 
+  z-index: 100; 
+  border: .5px solid #383232;
+}
+
+.ladrillos{
+  width: 126px;
+  height: 48.6px;
+  flex-grow: 0;
+  object-fit: contain;
+  position: fixed;
+  left: 24px;
+}
+
+.headerButtonsDiv{
+  width: 600px;
+  height: 60px;
+  position: fixed;
+  right: 24px;
+  gap: 5px;
+}
+.headerButtons{
+  width: 200px;
+  height: 55px;
+  text-align: center;
+  vertical-align: center;
+  line-height: normal;
+  padding: 0px 5px;
+}
+
+ .headerText{
+    font-style: italic;
+    font-size: x-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: crimson; 
+ }
+
+ .angelImage{
+  width:36%;
+  /*height: 85%;*/
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  position: fixed;
+  top: 150px;
+  left: 2%;
+  right: 60%;
+  bottom: 20px;
+  z-index: 100; 
+}
+
+.signUpDiv{
+  /*display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;*/
+  width: 1000px;
+  padding: 5px;
+  position: absolute;
+  top: 130px;
+  left: 40%;
+  right: 2%;
+  bottom: 20px;
+  z-index: 100; 
+}
+
+.signUpText{
+  width: 160px;
+  height: 40px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 23px;
+  text-align: left;
+  position: fixed;
+  top: 250px;
+  left: 56%;
+  font-weight: bold;
+}
+
+.al-aceptar-crear-una-cuenta{
+  width: 350px;
+  height: 40px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 15px;
+  text-align: left;
+  position: fixed;
+  top: 300px;
+  left: 56%;
+  color: #3e3e3e;
+}
+
+.blue-letter-style{
+  color: #3ca4fc;
+}
+
+.label{
+  width: 200px;
+  height: 40px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 15px;
+  text-align: left;
+  position: absolute;
+  top: 270px;
+  left: 30%;
+  color: #3e3e3e;
+} 
+.label-2{
+  width: 200px;
+  height: 40px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 15px;
+  text-align: left;
+  position: absolute;
+  top: 270px;
+  left: 30%;
+  color: #3e3e3e;
+}
+
+.ingresar-email{
+  width: 200px;
+  height: 40px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 15px;
+  text-align: left;
+  position: absolute;
+  top: 300px;
+  left: 30%;
+}
+
+.ingresar-constrasena{
+  width: 200px;
+  height: 40px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 15px;
+  text-align: left;
+  position: absolute;
+  top: 300px;
+  left: 30%;
+}
+
+::placeholder{
+  color: #bdbcbc;
+}
+
+.visibility-off-image{
+  width: 1%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  background-color: transparent;
+  top: 305px;
+  left: 47%;
+}
+
+.input-div{
+  width: 1000px;
+  height: 100px;
+  position: relative;
+  left: 0px;
+  gap: 5px;
+}
+
+.linea-separacion1{
+  width: 84.4px;
+  height: 1px;
+  flex-grow: 0;
+  /*margin: 9px 0 10px 23.1px;*/
+  /*transform: rotate(-270deg);*/
+  background-color: #eaeaea;
+  position: absolute;
+  top: 500px;
+  left: 20%;
+}
+
+.linea-separacion2{
+  width: 84.4px;
+  height: 1px;
+  flex-grow: 0;
+  /*margin: 9px 0 10px 23.1px;*/
+  /*transform: rotate(-270deg);*/
+  background-color: #eaeaea;
+  position: absolute;
+  top: 500px;
+  left: 50%;
+}
