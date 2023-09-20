@@ -30,7 +30,7 @@
   flex-grow: 0;
   object-fit: contain;
   position: fixed;
-  left: 24px;
+  left: 40px;
 }
 
 .headerButtonsDiv{
@@ -95,7 +95,7 @@
   text-align: left;
   position: fixed;
   top: 250px;
-  left: 56%;
+  left: 55%;
   font-weight: bold;
 }
 
@@ -107,7 +107,7 @@
   text-align: left;
   position: fixed;
   top: 300px;
-  left: 56%;
+  left: 55%;
   color: #3e3e3e;
 }
 
@@ -165,15 +165,16 @@
 }
 
 .visibility-off-image{
-  width: 1%;
+  width: 5px;
+  height: 5px;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   position: absolute;
   background-color: transparent;
-  top: 305px;
-  left: 47%;
+  top: 312px;
+  left: 46.5%;
 }
 
 .input-div{
@@ -206,4 +207,88 @@
   position: absolute;
   top: 500px;
   left: 50%;
+}
+
+.o-registrarte-con{
+  width: 350px;
+  height: 40px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 15px;
+  text-align: left;
+  position: absolute;
+  top: 490px;
+  left: 34%;
+  color: #3e3e3e;
+}
+
+.botones-inicio-de-sesion-div{
+  width: 1000px;
+  height: 150px;
+  position: relative;
+  top: 300px;
+  left: 0px;
+  gap: 5px;
+}
+
+.boton-inicio-de-sesion-google{
+  width: 15px;
+  height: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  background-color: transparent;
+  top: 40px;
+  left: 30%;
+}
+
+.boton-inicio-de-sesion-microsoft{
+  width: 15px;
+  height: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  background-color: transparent;
+  top: 40px;
+  left: 38%;
+}
+
+.boton-inicio-de-sesion-facebook{
+  width: 15px;
+  height: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  background-color: transparent;
+  top: 40px;
+  left: 46%;
+}
+
+.systems-icons-1{
+  position: absolute;
+  top: 65%;
+  left: 35%;
+}
+
+.systems-icons-2{
+  position: absolute;
+  top: 65%;
+  left: 38%;
+}
+
+.systems-icons-3{
+  position: absolute;
+  top: 65%;
+  left: 41%;
+}
+
+.systems-icons-4{
+  position: absolute;
+  top: 65%;
+  left: 44%;
 }
